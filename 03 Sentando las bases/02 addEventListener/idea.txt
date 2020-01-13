@@ -1,0 +1,8 @@
+Lazaro 
+
+Solucion Tecnologia: 
+
+Hacer una aplicacion donde puedan los vecinos avisar las zonas del barrio donde se encuentran los desperfectos,
+ como tambien los pozos en las calles y la ausencia de semaforos en distintos puntos del barrio. 
+ Si hay mucha cantidad de quejas por alguna zona en especifico, aumentar la alerta del peligro, de forma tal 
+ que se pueda solucionar los lugares que se necesiten solucionar con mas urgencia. 

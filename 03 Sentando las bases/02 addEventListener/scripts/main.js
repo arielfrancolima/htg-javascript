@@ -3,13 +3,18 @@
 const formulario = document.querySelector('#contacto');
 const inputNombre = document.querySelector('#input-nombre');
 
+
 function recibirNombre(event) {
   event.preventDefault();
-  console.log(event);
+alert("se envio el formulario correctamente");
 }
 
 function interceptarNombre(event) {
-  console.log(event.target.value);
+  if (event.target.value.length<5 || event.target.value.length>50){
+    console.log("Error")
+  }else{
+    console.log(event.target.value);
+  }
 }
 
 formulario.addEventListener('submit', recibirNombre);
