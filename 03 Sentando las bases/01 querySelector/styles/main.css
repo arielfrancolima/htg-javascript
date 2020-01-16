@@ -49,6 +49,13 @@ main {
 .comment--author {
   font-weight: bold;
 }
+.comentFavorito{
+  border-color: red;
+}
+.ocultar{
+  opacity: 0;
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
